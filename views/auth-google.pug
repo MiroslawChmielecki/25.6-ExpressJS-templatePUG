@@ -8,14 +8,14 @@ html
     body
         img.logo(src="../google.jpeg")
         .formBox
-            form.form(action='/logged')
-                label Email:
+            form.form(action='/logged' method='GET')
+                p.inputBox Email:
                     input.input(
                         type='text'
                         placeholder='enter Your email'
                         name='email'
                     )
-                label Password:
+                p.inputBox Password:
                     input.input( 
                         type='password'
                         placeholder='enter Your password'

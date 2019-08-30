@@ -16,7 +16,7 @@ body {
   align-items: center;
 }
 
-label {
+.inputBox {
   font-size: 30px;
   display: flex;
   margin: 10px 0 5px;
