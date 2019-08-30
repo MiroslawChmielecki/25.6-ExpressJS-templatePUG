@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo {
+  max-width: 500px;
+  max-height: 300px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  font-size: 30px;
+  display: flex;
+  margin: 10px 0 5px;
+}
+
+.input {
+  margin: 0 20px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.buttonLogin {
+  width: 150px;
+  height: 50px;
+  margin-top: 20px;
+  font-size: 25px;
+}
+.buttonLogin:hover {
+  cursor: pointer;
+}

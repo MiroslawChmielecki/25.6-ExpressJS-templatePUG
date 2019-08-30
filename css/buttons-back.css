@@ -1,0 +1,12 @@
+.buttons-back {
+  display: flex;
+}
+
+.btn-back {
+  text-decoration: none;
+  color: white;
+  background-color: grey;
+  padding: 5px;
+  margin: 0 10px 20px;
+  font-size: 20px;
+}

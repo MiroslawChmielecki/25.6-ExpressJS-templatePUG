@@ -1,0 +1,27 @@
+html
+    head
+        title 25.6-template_PUG-auth-google
+        link(
+            rel="stylesheet"
+            href="../auth-google.css"
+        )
+    body
+        img.logo(src="../google.jpeg")
+        .formBox
+            form.form(action='/logged')
+                label Email:
+                    input.input(
+                        type='text'
+                        placeholder='enter Your email'
+                        name='email'
+                    )
+                label Password:
+                    input.input( 
+                        type='password'
+                        placeholder='enter Your password'
+                        name='password'
+                    )
+                input.buttonLogin( 
+                    type='submit'
+                    value='login'
+                )
